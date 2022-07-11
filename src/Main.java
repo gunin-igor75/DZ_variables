@@ -1,6 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        // Залача 1
+        task1();
+        task2();
+        task3();
+        task4();
+        task5();
+    }
+
+    public static void task1() {
         byte byteNumber = 10;
         short shortNumber = 100;
         long longNumber = 1000L;
@@ -9,17 +16,19 @@ public class Main {
         double doubleNumber = 100.125;
         char charSymbol = 'A';
         boolean flag = true;
+    }
 
-        // Задача 2
+    public static void task2() {
         float weightBoxer1 = 78.2f;
         float weightBoxer2 = 82.7f;
         float totalWeight = weightBoxer1 + weightBoxer2;
         System.out.println("Задача 2");
         System.out.println("Общий вес двух бойцов " + totalWeight + " кг");
-        float diffWeight = weightBoxer2 - weightBoxer1;
+        float diffWeight = Math.abs(weightBoxer2 - weightBoxer1);
         System.out.println("Разница между весами бойцов " + diffWeight + " кг");
+    }
 
-        //Задача 3
+    public static void task3() {
         float weight_banana = 80f;
         float weight_milk = 105f;
         float weightIceCream = 100f;
@@ -28,8 +37,9 @@ public class Main {
         float weightTotalKilogram = weightTotalGrams / 1000;
         System.out.println("Задача 3");
         System.out.println("Вес завтрака в килограммах " + weightTotalKilogram + " кг");
+    }
 
-        //Задача 4
+    public static void task4() {
         int overWeight = 7000;
         int normWeight1 = 250;
         int normWeight2 = 500;
@@ -40,8 +50,9 @@ public class Main {
         System.out.println("При уменьшении веса на 250 гр в  количество дней составит " + day1);
         System.out.println("При уменьшении веса на 500 гр количество дней составит " + day2);
         System.out.println("В среднем количество дней составит " + dayAvg);
+    }
 
-        //Задача 5
+    public static void task5() {
         float salaryMasha = 67760f;
         float salaryDenis = 83690f;
         float salaryCristina = 76230f;
